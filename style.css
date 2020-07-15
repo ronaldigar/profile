@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+body{
+  background-color: #feceab;
+  font-family: 'Open Sans', sans-serif;
+  color: #5e6f64;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(100,100,100);
+}
+
+a{
+  text-decoration: none;
+  color: #204051;
+}
+
+a:hover{
+  color: #3b6978;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card{
+  background: white;
+  border: 10px;
+  border-radius: 5px;
+  box-shadow: 2px, 2px, 3px, rgb(190,190,190);
+  margin: 10px 0;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: rgba(100,100,100,.5);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
